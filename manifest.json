@@ -1,9 +1,8 @@
 {
   "name": "Twitter Random RT",
-  "version": "1.0.0",
-  "description": "Choosing Random User Who Retweeted",
+  "version": "0.0.0.1",
+  "description": "Chooses Random User Who Retweeted Tweet",
   "permissions": ["tabs"],
-  "host_permissions": ["https://*.twitter.com/*"],
   "content_scripts": [
     {
       "matches": ["https://*.twitter.com/*"],
@@ -11,6 +10,7 @@
     }
   ],
   "action": {
+    "default_icon": "icon.png",
     "default_title": "Twitter Random RT",
     "default_popup": "popup.html"
   },
