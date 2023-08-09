@@ -16,9 +16,9 @@ function getRandomItem(set) {
 
 async function OnRandom(response) {
 
-    var find = document.querySelectorAll('[aria-label="Timeline: Retweeted by"]');
+    var find = document.querySelectorAll('[aria-label="Timeline: Reposted by"]');
     if (find.length == 0) {
-        find = document.querySelectorAll('[aria-label="타임라인: 리트윗함"]');
+        find = document.querySelectorAll('[aria-label="타임라인: 재게시한 사용자"]');
     }
     var element = find[0];
 
